@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS-Layout</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!--Class: 11/06/2020-->
+
+
+
+<div class="header">
+	<h2>Class Assignment- CSS Layout</h2>
+	<h3 style="text-align: center; margin-top:10px; color: white;">Date: 11.06.2020</h3>
+</div>
+
+
+<marquee> <h3 style="text-align: center;">The following lightgray background wrapper have two div, each of 50% width, minimum height 150px, no padding, no margin, float right/left, overflow hidden, text align-center & 5px dashed border</h3></marquee>
+
+<div class="wrapper">
+	
+	<div class="googlemap">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12277.798538054929!2d90.37821540807292!3d23.811082582415015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1592106561325!5m2!1sen!2sbd" width="500" height="315" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>		
+	</div>
+
+	<div class="youtube_video">
+		<iframe width="500" height="315" src="https://www.youtube.com/embed/lgm3puP3tMA" frameborder="0" allow="accelerometer; autoplayencrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+
+</div>
+
+<marquee> <h3 style="text-align: center;">The following no background wrapper have three div, each of 100% width, minimum height 100px, 25px padding, no margin, no float, no overflow, text align-center & no border</h3></marquee>
+
+	<div class="wrapper2"> 
+			<div class="div1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				
+			</div>
+			<div class="div2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				
+			</div>
+			<div class="div3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+				
+			</div>
+	</div>
+
+
+
+<!--Container 2- inline three div section-->
+<marquee> <h3 style="text-align: center;">The following cyan background wrapper have three div (33.5%, 33%, 33.5%) of width, minimum height 200px, 20px padding, 20px left & right margin, all 3 float left, overflow hidden, text align-center, p element top-padding 60px, right/left 15px padding & no border</h3></marquee>
+
+	<div class="wrapper3"> 
+			<div class="div4"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>				
+			</div>
+
+			<div class="div5"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>				
+			</div>
+
+			<div class="div6"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>				
+			</div>
+	</div>
+
+
+<div class="wrapper4">
+		<div class="form">
+					<form>
+							<label>First Name:</label>
+							<input type="text" name="firstname" placeholder="Your First Name">
+							
+							<label>Last Name:</label>
+							<input type="text" name="lastname" placeholder="Your Last Name"><br><br>
+							
+							<label>Your E-mail</label>
+							<input type="email">
+
+							<br><br>
+
+							<label>Gender
+
+							<input type="radio" name="gender" value="male" checked="">  Male 
+							<input type="radio" name="gender" value="female">  Female
+							</label>
+							<br><br>
+							
+							<label>Country:</label>
+							<select name="country">
+								<option>USA</option>
+								<option>Canada</option>
+								<option>Australia</option>
+								<option selected="">Bangladesh</option>
+								<option>India</option>
+								<option>Pakistan</option>
+								<option>Nepal</option>
+								<option>Bhutan</option>
+							</select>
+							
+							
+							<label>Date of Birth</label>
+							<input type="date" min="1950-01-01" max="2020-12-31">
+							
+							<br><br>
+				
+							<label>Age</label>
+							<input type="number" min="18" max="120">					
+							
+							<br><br>
+
+							<label>Upload Your Photo:</label>
+							<input type="file">
+							
+							<br><br>
+
+							<label>Your Present Address</label><br>
+							<textarea rows="6" cols="100" spellcheck="false">Your Present Address</textarea>
+
+							<br><br>
+
+							<label>Your Parmanent Address</label><br>
+							<textarea rows="6" cols="100" spellcheck="false">Your Parmanent Address</textarea>
+
+							
+							<br><br>
+							<input type="submit">
+							<input type="reset"><br><br>
+						</fieldset>
+					</form>
+
+		</div>
+
+
+		<div class="table">
+			<table border="1">
+				<tr>
+		          <th colspan="2">First Name</th>
+		          <th>Last Name</th>
+		          <th>Mobile</th>
+		        </tr>
+		         <tr>
+		          <td rowspan="2">Nazmul</td>
+		          <td>karim</td>
+		          <td>01914380655</td>
+		          <td>nazmulkarim110@gmail.com</td>
+		        </tr>
+		        <tr>
+		          <td>Nazmul karim</td>
+		          <td>01914380655</td>
+		          <td>nazmulkarim110@gmail.com</td>
+		        </tr>
+		        <tr>
+		          <td>Nazmul karim</td>
+		          <td>01914380655</td>
+		          
+		        </tr>
+			</table>
+		</div>
+
+
+	</div>
+
+
+
+<div class="footer">
+	<p>Copyright @ Nazmul Karim- 2020- A rights reserved.</p>
+</div>
+
+</body>
+</html>

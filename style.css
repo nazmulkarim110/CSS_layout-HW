@@ -1,0 +1,181 @@
+*{
+	margin: 0px;
+	font-family: sans-serif;
+
+}
+
+h2{
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+	font-size: 30px;
+	
+}
+
+.header{
+	background-color: #C44B4F;
+	height: 150px;
+	margin-bottom: none;
+}
+
+.wrapper{
+	background-color: lightgray;
+	overflow: hidden;
+	text-align: center;
+	border: 5px dashed #4CD7D0;  
+}
+
+
+.googlemap{
+	width: 50%;
+	float: left;
+	background-color: #EEEDE7;
+	
+}
+
+
+.youtube_video{
+	width: 50%;
+	float: right;
+	background-color: #B9B7BD;
+
+}
+
+
+/* Another section- three div- block */
+
+
+.wrapper2{
+	min-height: 150px;
+}
+
+.div1{
+	background-color: #E7D2CC;
+	min-height: 100px;
+	text-align: center;
+	padding: 25px;
+}
+
+.div2{
+	background-color: #DBC39A;
+	min-height: 100px;
+	text-align: center;
+	padding: 25px;
+
+}
+
+.div3{
+	background-color: #DACAC4;
+	min-height: 100px;
+	text-align: center;
+	padding: 25px;
+}
+
+
+
+/* Another section- 
+three div inline */
+
+
+
+.wrapper3{
+	background-color: #4CD7D0;
+	overflow: hidden;
+	padding: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+
+}
+
+				.div4 {
+					background-color: #EAEAE0;
+					min-height: 200px;
+					width: 33.5%;
+					float: left;
+					text-align: center;
+				}
+
+				.div5{
+					background-color: #278AB0;
+					min-height: 200px;
+					width: 33%;
+					float: left;
+					text-align: center;
+					color: #ffff;
+				}
+
+				.div6{
+					background-color: #1DC690;
+					min-height: 200px;
+					width: 33.5%;
+					float: left;
+					text-align: center;
+				}
+
+
+
+		.div4 p{
+			padding-top: 60px;
+			padding-right: 15px;
+			padding-left: 10px;
+		}
+
+
+		.div5 p{
+			padding-top: 60px;
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+
+
+		.div6 p{
+			padding-top: 60px;
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+
+
+
+/*FORM SECTION*/
+
+
+.wrapper4{
+	overflow: hidden;
+	
+}
+
+.form{
+	float: left;
+	text-align: center;
+	width: 48.7%;
+	background-color: #C8F4F9;
+	padding: 10px;
+	margin-left: 20px;
+	min-height: 500px;
+
+}
+
+/*TABLE SECTION*/
+
+.table{
+	float: right;
+	width: 47%;
+	background-color: #EEB5EB;
+	padding: 10px;
+	margin-right: 20px;
+	min-height: 545px;
+	text-align: center;
+}
+
+/*FOOTER SECTION */
+
+.footer{
+	background-color: Tomato;
+	min-height: 50px;
+	text-align: center;
+
+}
+
+.footer p{
+	padding-top: 15px;
+}
